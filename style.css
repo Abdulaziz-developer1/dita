@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.eighty {
+  width: 80%;
+  height: 100%;
+}
+
+header .eighty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 25px;
+}
+
+main {
+  text-align: center;
+}
+
+main .eighty {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+main .eighty a {
+  color: black;
+}
+
+main,
+section {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .eighty {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  height: 320px;
+}
+
+.card {
+  width: 25%;
+  height: 100%;
+  border: 3px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.card img {
+  width: 80%;
+  height: 200px;
+}
+
+.card p {
+  width: 100%;
+}
+
+.center {
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.center b {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.center i {
+  font-size: 70px;
+}
+
+.black {
+  background: #1a1a1a;
+  color: #fff;
+  height: 100vh;
+  padding-top: 2%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+}
+
+.cards2 {
+  gap: 2%;
+}
+
+.cards2 .card {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards2 .card img {
+  width: 50%;
+  height: 50%;
+}
+
+.twenty {
+  height: 15vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.twenty .eighty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.twenty .eighty{
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.twenty a{
+    color: #fff;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.eightyrow{
+    flex-direction: row !important;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.flex a{
+    color: #000;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #d6d6d6;
+    align-items: center;
+}
+
+.input input{
+    border: none;
+    background: transparent;
+    width: 80%;
+    height: 30px;
+}
+
+.input i{
+    font-size: 40px;
+}
